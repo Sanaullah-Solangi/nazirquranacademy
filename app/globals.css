@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
+
+/* 2. Poori website par apply karne ke liye body ya root mein lagayein */
+* {
+    font-family: "Jost", sans-serif !important;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
 html {
     font-size: 62.5%;
@@ -29,7 +37,7 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 a {
@@ -265,9 +273,10 @@ button {
     border-radius: 50%;
 }
 
-.stat > .icon-cover {
+.stat>.icon-cover {
     border: none;
 }
+
 .icon-cover>.hero-book,
 .state-book {
     color: var(--gold);
@@ -385,7 +394,7 @@ span {
     border-right: 1px solid rgb(214, 213, 213);
 }
 
-.stats > .stat-1{
+.stats>.stat-1 {
     padding: 0rem 6rem;
     font-size: 1.1rem;
     color: rgb(126, 124, 124);
@@ -400,7 +409,7 @@ span {
     gap: 1rem;
 }
 
-.stat > div > strong{
+.stat>div>strong {
     font-size: 1.5rem;
 }
 
@@ -493,6 +502,17 @@ span {
     color: var(--gold);
     font-size: var(--small-font);
 }
+
+.course-top > span {
+    background-color: #e7dcbf;
+    padding: 0.9rem;
+    border-radius: 5px;
+}
+
+.course-top > span > .icon {
+    color: var(--gold);
+}
+
 
 .course-top small {
     font-size: 9px;
