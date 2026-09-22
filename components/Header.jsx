@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Brand from "./Brand"
-import { ArrowUpRight, Menu } from "lucide-react"
+import { ArrowUpRight, Menu, X } from "lucide-react"
 
 function Header({ dark, setDark }) {
     const [open, setOpen] = useState(false)
