@@ -1,7 +1,7 @@
 import { ArrowUpRight, BookOpen } from "lucide-react"
 
 function Hero() {
-    return <section className="hero" id="top">
+    return <section className="hero section" id="top">
         <div className="hero-copy">
             <p className="eyebrow">NAZIR ONLINE QURAN ACADEMY</p>
             <h1>A lifelong connection.<br />One beautiful <em>verse at a time.</em></h1>

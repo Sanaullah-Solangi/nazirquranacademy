@@ -5,11 +5,11 @@ import { ArrowUpRight, Menu } from "lucide-react"
 function Header({ dark, setDark }) {
     const [open, setOpen] = useState(false)
     return <>
-        <div className="utility">
+        <div className="utility section">
             <span>◈ &nbsp;Online Quran & Islamic learning</span>
             <span>Read with care. Learn with purpose.</span>
         </div>
-        <header className="site-header">
+        <header className="site-header section">
             <Brand />
             <nav className={open ? 'nav open' : 'nav'}>
                 <a href="#courses" onClick={() => setOpen(false)}>Our courses</a>

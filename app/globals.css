@@ -934,6 +934,11 @@ footer>div:not(.footer-bottom) a:hover {
     color: var(--gold);
 }
 
+.utility, .site-header{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
 @media (max-width: 800px) {
     .utility {
         padding: 0 18px;
