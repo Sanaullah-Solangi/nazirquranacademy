@@ -1100,14 +1100,8 @@ footer > div:not(.footer-bottom) a:hover {
     background: var(--paper);
     flex-direction: column;
     margin: 0;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .nav.open {
-    display: flex;
-  }
-
-  .menu-toggle {
+    background-color: red;
+    height: 80vh;
     display: grid;
   }
 
