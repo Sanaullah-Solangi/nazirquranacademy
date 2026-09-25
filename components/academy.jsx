@@ -21,10 +21,10 @@ export function AcademyApp() {
         <Stats />
         <Courses />
         <About />
-        {/*   <Paths />
-      <Steps />
-      <FAQs />
-      <Contact /> */}
+        <Paths />
+        <Steps />
+        <FAQs />
+        <Contact />
       </main>
       <Footer />
       <a className="back-top" href="#top" aria-label="Back to top">
