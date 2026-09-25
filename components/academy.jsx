@@ -20,13 +20,16 @@ export function AcademyApp() {
         <Hero />
         <Stats />
         <Courses />
-        {/*  <About />
-      <Paths />
+        <About />
+        {/*   <Paths />
       <Steps />
       <FAQs />
       <Contact /> */}
       </main>
-      <Footer /><a className="back-top" href="#top" aria-label="Back to top">↑</a>
+      <Footer />
+      <a className="back-top" href="#top" aria-label="Back to top">
+        ↑
+      </a>
     </div>
   );
 }

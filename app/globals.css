@@ -55,7 +55,7 @@ button {
     color 0.35s;
 }
 
-/* ============ HEADER SECTION ============ */
+/* ================================= HEADER SECTION ================================= */
 
 .utility {
   height: 32px;
@@ -216,7 +216,7 @@ button {
   font-size: 17px;
 }
 
-/* ============ HERO SECTION ============ */
+/* ================================= HERO SECTION ================================= */
 
 .hero {
   min-height: 610px;
@@ -414,7 +414,7 @@ span {
   color: var(--ink);
 }
 
-/* ============ STATS SECTION ============ */
+/* ================================= STATS SECTION ================================= */
 
 .stats {
   display: grid;
@@ -453,6 +453,8 @@ span {
 .stat > div > strong {
   font-size: 1.5rem;
 }
+
+/* ================================= SECTION ================================= */
 
 .section-intro {
   max-width: 630px;
@@ -497,6 +499,8 @@ span {
   border-color: var(--navy);
   color: #fff;
 }
+
+/* ================================= COURSES SECTION ================================= */
 
 /* .course-grid {
   display: grid;
@@ -625,6 +629,8 @@ span {
   display: grid;
   place-items: center;
 }
+
+/* ================================= COURSES SECTION ================================= */
 
 .about {
   display: grid;
@@ -1073,6 +1079,15 @@ footer > div:not(.footer-bottom) a:hover {
   .stat > div {
     align-items: center !important;
     gap: 0%;
+  }
+
+  .about {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+
+  .about-image {
+    min-height: 500px;
   }
 }
 
