@@ -26,7 +26,7 @@ export function AcademyApp() {
       <FAQs />
       <Contact /> */}
       </main>
-      {/* <Footer /><a className="back-top" href="#top" aria-label="Back to top">↑</a> */}
+      <Footer /><a className="back-top" href="#top" aria-label="Back to top">↑</a>
     </div>
   );
 }

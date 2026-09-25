@@ -66,6 +66,8 @@ button {
   background: var(--navy);
   font-size: 1.1rem;
   letter-spacing: 0.02em;
+  position: relative;
+  z-index: 21;
 }
 
 .utility > span {
@@ -82,7 +84,7 @@ button {
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
-  z-index: 20;
+  z-index: 15;
 }
 
 .utility,
@@ -128,9 +130,7 @@ button {
 
 .nav {
   display: flex;
-  /* justify-content: center; */
-  /* gap: 28px; */
-  transition: all 1s ease-in-out;
+  transition: all 0.50s ease-in-out;
   margin-left: auto;
   margin-right: 28px;
   font-size: var(--small-font);
@@ -1089,15 +1089,16 @@ footer > div:not(.footer-bottom) a:hover {
 
   .nav {
     /* display: none; */
+    border-top: 1px solid rgb(231, 229, 229);
     position: absolute;
     left: 0;
     right: 0;
-    top: -800%;
+    top: -100vh;
     background: var(--paper);
     flex-direction: column;
     margin: 0;
-    height: calc(100vh - 92px);
-    z-index: 10;
+    height: calc(80vh - 92px);
+    z-index: -10;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   }
 
