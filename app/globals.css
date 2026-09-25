@@ -1241,6 +1241,8 @@ footer > div:not(.footer-bottom) a:hover {
     font-size: 22px;
     width: 220px;
     left: -3%;
+    padding: 1.5rem 1.8rem;
+    gap: 0%;
   }
 
   .arabic > div > strong {
