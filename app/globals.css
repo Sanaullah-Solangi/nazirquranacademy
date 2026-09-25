@@ -128,13 +128,25 @@ button {
 
 .nav {
   display: flex;
-  gap: 28px;
+  /* justify-content: center; */
+  /* gap: 28px; */
   margin-left: auto;
   margin-right: 28px;
   font-size: var(--small-font);
+  height: 100%;
 }
 
-.nav a:hover,
+.nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-inline: 1rem;
+}
+
+.nav a:hover {
+  background: #f4f5f5;
+}
+
 .text-link:hover {
   color: var(--gold);
 }
