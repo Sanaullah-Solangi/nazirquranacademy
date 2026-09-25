@@ -502,29 +502,11 @@ span {
 
 /* ================================= COURSES SECTION ================================= */
 
-/* .course-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 14px;
-} */
-
 .course-grid {
   display: flex;
   flex-wrap: wrap; /* Items ko next line par bhejne ke liye */
   gap: 14px; /* Cards ke darmiyan fasla */
 }
-
-/* .course-card {
-  min-height: 285px;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--line);
-  background: var(--paper);
-  transition:
-    transform 0.25s,
-    box-shadow 0.25s;
-} */
 
 .course-card {
   /* Har card 3 columns ke hisab se width lega (33.333% minus gap) */
@@ -565,9 +547,10 @@ span {
 
 .course-top > span {
   background-color: #f0e9d5;
-  padding: 1rem;
+  padding: 1.2rem;
   border-radius: 15px;
   transition: all 0.2s ease-in-out;
+  animation: border-animation 2s infinite linear;
 }
 
 .course-card:hover .course-top span {
@@ -984,13 +967,30 @@ footer > div:not(.footer-bottom) a:hover {
   position: fixed;
   right: 22px;
   bottom: 22px;
-  width: 38px;
-  height: 38px;
+  width: 4rem;
+  height: 4rem;
   display: grid;
   place-items: center;
+  font-size: 2.3rem;
   background: var(--gold);
   color: var(--navy);
   z-index: 10;
+  border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+  -webkit-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+  -moz-border-radius: 76% 24% 58% 42%/17% 76% 24% 83%;
+  animation: border-animation 2s infinite linear;
+}
+
+@keyframes border-animation {
+  0% {
+    border-radius: 76% 24% 58% 42% / 17% 76% 24% 83%;
+  }
+  50% {
+    border-radius: 42% 58% 24% 76% / 76% 17% 83% 24%;
+  }
+  100% {
+    border-radius: 76% 24% 58% 42% / 17% 76% 24% 83%;
+  }
 }
 
 .dark-mode {
