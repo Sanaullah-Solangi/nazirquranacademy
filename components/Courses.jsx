@@ -44,7 +44,7 @@ function Courses() {
                         <article className="course-card" key={title}>
                             <div className="course-top">
                                 <span>
-                                    <IconComponent className="w-8 h-8 icon text-[#c5a059]" />
+                                    <IconComponent className="icon text-[#c5a059]" />
                                 </span>
                                 <small>{cat}</small>
                             </div>
