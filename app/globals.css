@@ -1231,13 +1231,25 @@ footer > div:not(.footer-bottom) a:hover {
   .arch-image {
     height: 400px;
   }
+
+  .arabic {
+    font-size: 22px;
+    width: 220px;
+    left: -3%;
+    padding: 1.5rem 1.8rem;
+    gap: 0%;
+  }
+
+  .arabic > div > strong {
+    font-size: 1.3rem;
+  }
 }
 
 @media (max-width: 400px) {
   .utility span:last-child {
     display: none;
   }
-   .arabic {
+  .arabic {
     font-size: 22px;
     width: 220px;
     left: -3%;
