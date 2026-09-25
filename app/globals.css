@@ -1234,10 +1234,10 @@ footer > div:not(.footer-bottom) a:hover {
 
   .arabic {
     font-size: 22px;
-    width: 220px;
+    width: 230px;
     left: -3%;
     padding: 1.5rem 1.8rem;
-    gap: 0%;
+    gap: 1rem;
   }
 
   .arabic > div > strong {
@@ -1248,16 +1248,5 @@ footer > div:not(.footer-bottom) a:hover {
 @media (max-width: 400px) {
   .utility span:last-child {
     display: none;
-  }
-  .arabic {
-    font-size: 22px;
-    width: 220px;
-    left: -3%;
-    padding: 1.5rem 1.8rem;
-    gap: 0%;
-  }
-
-  .arabic > div > strong {
-    font-size: 1.3rem;
   }
 }
