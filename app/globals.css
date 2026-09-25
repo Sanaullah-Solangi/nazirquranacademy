@@ -130,7 +130,7 @@ button {
 
 .nav {
   display: flex;
-  transition: all 0.50s ease-in-out;
+  transition: all 0.5s ease-in-out;
   margin-left: auto;
   margin-right: 28px;
   font-size: var(--small-font);
@@ -1227,8 +1227,23 @@ footer > div:not(.footer-bottom) a:hover {
   }
 }
 
+@media (max-width: 550px) {
+  .arch-image {
+    height: 400px;
+  }
+}
+
 @media (max-width: 400px) {
   .utility span:last-child {
     display: none;
+  }
+   .arabic {
+    font-size: 22px;
+    width: 220px;
+    left: -3%;
+  }
+
+  .arabic > div > strong {
+    font-size: 1.3rem;
   }
 }
