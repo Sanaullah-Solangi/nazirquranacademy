@@ -130,6 +130,7 @@ button {
   display: flex;
   /* justify-content: center; */
   /* gap: 28px; */
+  transition: all 1s ease-in-out;
   margin-left: auto;
   margin-right: 28px;
   font-size: var(--small-font);
@@ -1081,32 +1082,46 @@ footer > div:not(.footer-bottom) a:hover {
     justify-content: center;
     gap: 3rem;
   }
-  /* 
-  .utility span:last-child {
-    display: none;
-  } */
 
   .brand strong {
     font-size: 21px;
   }
 
   .nav {
-    display: none;
+    /* display: none; */
     position: absolute;
     left: 0;
     right: 0;
-    top: 78px;
-    padding: 22px;
+    top: -800%;
     background: var(--paper);
     flex-direction: column;
     margin: 0;
-    background-color: red;
-    height: 80vh;
+    height: calc(100vh - 92px);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Jab state 'open' ho toh yeh chalega (jo React class deta hai) */
+  .nav.open {
     display: grid;
+    top: 78px;
+  }
+
+  .nav a {
+    justify-content: center;
+  }
+
+  .nav a:hover {
+    background: #eff0f0;
   }
 
   .button-small {
     display: none;
+  }
+
+  /* Burger button ko choti screen par show karne ke liye */
+  .menu-toggle {
+    display: grid;
   }
 }
 
