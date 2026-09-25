@@ -1097,3 +1097,9 @@ footer > div:not(.footer-bottom) a:hover {
     bottom: 14px;
   }
 }
+
+@media (max-width: 400px) {
+  .utility span:last-child {
+    display: none;
+  }
+}
