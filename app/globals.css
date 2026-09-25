@@ -1205,11 +1205,7 @@ footer > div:not(.footer-bottom) a:hover {
   }
 }
 
-<<<<<<< HEAD
 @media (max-width: 400px) {
-=======
-@media (max-width: 420px) {
->>>>>>> c77502bfca62b1fe5c02af4c28ed53e85f8ac69d
   .utility span:last-child {
     display: none;
   }
